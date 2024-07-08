@@ -147,13 +147,21 @@ body {
     letter-spacing: 0%;
     text-align: left;
     cursor: pointer;
-
 }
+
+.main-header ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.main-header ul li a:hover {
+    color: rgba(210, 181, 116, 0.4);
+}
+
 .main-header ul li:hover{
     color: rgb(210, 181, 116);
     box-shadow: 0px 10px 25px 0px rgba(210, 181, 116, 0.4);
     background: rgb(255, 255, 255);
-
 }
 
 /* ---- */
