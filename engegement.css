@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* -- */
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 184px;
+}
+.top-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative
+}
+.icons{
+    position: absolute;
+    right: 0;
+    display: flex;
+    gap: 25px;
+    top: 10px;
+}
+.main-header{
+    width: 998px;
+    height: 38px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.main-header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.main-header ul li{
+    color: rgb(46, 46, 46);
+    font-family: Baskerville;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+
+}
+.main-header ul li:hover{
+    color: rgb(210, 181, 116);
+    box-shadow: 0px 10px 25px 0px rgba(210, 181, 116, 0.4);
+    background: rgb(255, 255, 255);
+
+}
+
+
+
+
+/* --- */
+
+
+.wrapp{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+.ring-2{
+    box-shadow: 0 0 0 0 white;
+    transition: box-shadow 0.5s;
+}
+.ring-2:hover{
+    box-shadow: 0px 16px 40px 0px rgba(210, 181, 116, 0.5);
+
+}
+.ring-2 h1{
+    width: 81px;
+    height: 21px;
+    color: rgb(210, 181, 116);
+    font-family: Baskerville;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(210, 181, 116);
+    margin-left: 50px;
+}
+.ring-2 p{
+    width: 172px;
+    height: 54px;
+    color: rgb(46, 46, 46);
+    font-family: Baskerville;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(46, 46, 46);
+}
+.ring-2 button{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: rgba(210, 181, 116, 0.5);
+    color: rgb(46, 46, 46);
+    font-family: Baskerville;
+    font-size: 12.46px;
+    font-weight: 300;
+    line-height: 13px;
+    letter-spacing: 0%;
+    position: absolute;
+    bottom: 240px;
+    left: 780px;
+}
+
+/* ---- */
+.wrappp{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+.ring-3 h1{
+    width: 81px;
+    height: 21px;
+    color: rgb(210, 181, 116);
+    font-family: Baskerville;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(210, 181, 116);
+    margin-left: 50px;
+}
+.ring-3 p{
+    width: 172px;
+    height: 54px;
+    color: rgb(46, 46, 46);
+    font-family: Baskerville;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(46, 46, 46);
+
+}
+
+
+
+
+/* ----footer */
+
+
+.footer{
+   display: flex;
+   justify-content:space-between; 
+   background-color: rgb(46, 46, 46);
+   width: 1440px;
+   height: 286px;
+   position: relative;
+   
+}
+.footer-1{
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+.footer-1 h1{
+    width: 300px;
+    height: 21px;
+    color: rgb(210, 181, 116);
+    font-family: Baskerville;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    
+}
+.footer-1 img{
+    width: 250px;
+    height: 100px;
+}
+.btn-btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: absolute;
+    right: 50px;
+    
+}
+.btn-btn button{
+    box-sizing: border-box;
+    border: 1px solid rgb(125, 125, 125);
+    width: 183px;
+    height: 28px;
+    color: rgb(196, 196, 196);
+    font-family: Baskerville;
+    font-size: 12.78px;
+    font-weight: 300;
+    line-height: 13px;
+    letter-spacing: 0%;
+    background-color: rgb(46, 46, 46) ;
+}
+.btn-btn-2{
+    width: 183px;
+    height: 28px;
+    background-color: rgb(210, 181, 116);
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    right: 130px;
+    
+
+}
+
+
+/* ----- */
+
+
+.header-2{
+    width: 1196px;
+    height: 32px;
+    margin: 0 auto;
+    
+}
+.header-2 img{
+    width: 1196px;
+    height: 32px;
+}
+
+/* --- */
+
+
+.jewelry{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1196px;
+}
+.rings{
+    width: 95px;
+    height: 105px;
+}
+.rings img{
+    width: 80px;
+    height: 80px;
+}
+.rings h1{
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17.6px;
+    color: #2E2E2E;
+    margin-left: 20px;
+}
+/* ---- */
+
+
+.headerr-3{
+    width: 1196px;
+    height: 32px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.headerr-3 img{
+    width: 1196px;
+    height: 32px;
+}
+
+/* ----- */
+.jewelryy{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1196px;
+    margin-bottom: 200px;
+}
+.ringss{
+    width: 95px;
+    height: 105px;
+}
+.ringss img{
+    width: 80px;
+    height: 80px;
+}
+.ringss h1{
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17.6px;
+    color: #2E2E2E;
+    margin-left: 25px;
+    margin-top: 5px;
+   
+}

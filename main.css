@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* -- */
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 184px;
+}
+.top-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative
+}
+.icons{
+    position: absolute;
+    right: 0;
+    display: flex;
+    gap: 25px;
+    top: 10px;
+}
+.main-header{
+    width: 998px;
+    height: 38px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.main-header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.main-header ul li{
+    color: rgb(46, 46, 46);
+    font-family: Baskerville;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+
+}
+.main-header ul li:hover{
+    color: rgb(210, 181, 116);
+    box-shadow: 0px 10px 25px 0px rgba(210, 181, 116, 0.4);
+    background: rgb(255, 255, 255);
+
+}
+/* ---- */
+
+.banner {
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    object-fit: cover;
+}
+.banner-content {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.banner-content h1{
+    color: rgb(255, 255, 255);
+    font-family: Baskerville;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 97px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.banner-content p{
+    font-family: Baskerville;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.69px;
+    text-align: left;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+
+}
+.banner-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner-btn button{
+    width: 212px;
+    height: 44px;
+    background-color: rgb(46, 46, 46);
+    color: rgb(255, 255, 255);
+    font-family: Baskerville;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+
+
+
+
+/* --- */
+
+.main-h1{
+    width: 237px;
+    height: 59px;
+    color: rgb(210, 181, 116);
+    font-family: Baskerville;
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 100px;
+
+
+}
+/* ----- */
+
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+.ring{
+    width: 350px;
+    height: 342px;
+    box-shadow: 0 0 0 0 white;
+    transition: box-shadow 0.5s;
+}
+.ring:hover{
+    box-shadow: 0px 16px 40px 0px rgba(210, 181, 116, 0.5);
+
+}
+.ring img{
+    width: 350px;
+    height: 350px;
+}
+.ring h1{
+    width: 146px;
+    height: 29px;
+    color: rgb(210, 181, 116);
+    font-family: Baskerville;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-left: 100px;
+}
+.ring h2{
+    width: 205px;
+    height: 51px;
+    color: rgb(0, 0, 0);
+    font-family: Baskerville;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 65px;
+}
+.ring button{
+    width: 143px;
+    height: 29.68px;
+    background-color: rgb(46, 46, 46);
+    color: rgb(255, 255, 255);
+    font-family: Baskerville;
+    font-size: 16.19px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0%;
+    margin-left: 100px;
+    background-color:  rgb(210, 181, 116);
+}
+.active button:hover{
+    background-color:rgb(46, 46, 46) ;
+}
+
+
+/* ------- */
+
+.image img{
+    width: 1202px;
+    height: 216px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+.image{
+    margin-left: 120px;
+    margin-top: 250px;
+
+}
+.image h1{
+    font-family: Baskerville;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 31.1px;
+    text-align: center;
+    color:#D2B574;
+}
+
+
+
+/* ---------- */
+
+
+.image-content {
+    margin: 0 auto;
+}
+.image-content h1{
+    width: 600px;
+    height: 59px;
+    color: rgb(210, 181, 116);
+    font-family: Baskerville;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 460px;
+}
+.image-content h2{
+    width: 200px;
+    height: 29px;
+    color: rgb(0, 0, 0);
+    font-family: Baskerville;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 660px;
+}
+.image-container{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 50px;
+}
+.image-container img{
+    width: 450px;
+    height: 260px;
+}
+
+
+/* -------- */
+
+.aside{
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.aside img{
+    width: 1440px;
+    height: 328px;
+    margin: 0 auto;
+}
+
+
+/* -------------- */
+
+
+.service-h1{
+    font-family: Baskerville;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 41.46px;
+    text-align: center;
+    margin: 0 auto;
+    color: #D2B574;
+    margin-top: 150px;
+}
+.service{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 679.33px;
+    height: 112.08px;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+.services img{
+    width: 111.52px;
+    height: 111.52px;
+}
+.services p{
+    font-family: Baskerville;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24.19px;
+    text-align: center;
+}
+
+/* ------- */
+
+
+.between{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.between-left h1{
+    font-family: Baskerville;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 31.1px;
+    text-align: left;
+    width: 612px;
+    height: 62px;
+    color: #D2B574;
+    margin-bottom: 70px;
+}
+.between-left p{
+    font-family: Baskerville;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.69px;
+    text-align: left;
+    width: 578px;
+    height: 66px;
+}
+.between-right img{
+    width: 564px;
+    height: 357px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+/* -------- */
+
+.footer{
+    display: flex;
+    justify-content:space-between; 
+    background-color: rgb(46, 46, 46);
+    width: 1440px;
+    height: 286px;
+    position: relative;
+ }
+ .footer-1{
+     margin-top: 80px;
+     margin-left: 150px;
+     margin-right: 50px;
+ }
+ .footer-1 h1{
+     width: 300px;
+     height: 21px;
+     color: rgb(210, 181, 116);
+     font-family: Baskerville;
+     font-size: 24px;
+     font-weight: 700;
+     line-height: 21px;
+     letter-spacing: 0%;
+     margin-bottom: 30px;
+     
+ }
+ .footer-1 img{
+     width: 250px;
+     height: 100px;
+ }
+ .btn-btn{
+     display: flex;
+     justify-content: space-between;
+     gap: 10px;
+     position: absolute;
+     right: 50px;
+     
+ }
+ .btn-btn button{
+     box-sizing: border-box;
+     border: 1px solid rgb(125, 125, 125);
+     width: 183px;
+     height: 28px;
+     color: rgb(196, 196, 196);
+     font-family: Baskerville;
+     font-size: 12.78px;
+     font-weight: 300;
+     line-height: 13px;
+     letter-spacing: 0%;
+     background-color: rgb(46, 46, 46) ;
+ }
+ .btn-btn-2{
+     width: 183px;
+     height: 28px;
+     background-color: rgb(210, 181, 116);
+     color: #fff;
+     position: absolute;
+     top: 200px;
+     right: 130px;
+ }

@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+.container{
+    width: 1240px;
+    margin: 0 auto;
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 184px;
+}
+.button-btn{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative
+}
+.icons{
+    position: absolute;
+    right: 0;
+    display: flex;
+    gap: 25px;
+    top: 10px;
+}
+.main-header{
+    width: 998px;
+    height: 38px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.main-header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.main-header ul li{
+    color: rgb(46, 46, 46);
+    font-family: Baskerville;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+
+}
+.main-header ul li:hover{
+    color: rgb(210, 181, 116);
+    box-shadow: 0px 10px 25px 0px rgba(210, 181, 116, 0.4);
+    background: rgb(255, 255, 255);
+
+}
+
+.btn{
+    width: 157px;
+    height: 32px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #fff;
+}
+.h1{
+    color: rgb(210, 181, 116);
+    font-family: Baskerville;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+/* -------- */
+.wish-list{
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 400px;
+}
+.wishlist{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+   
+    
+}
+.list-img{
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 200px;
+    height: 200px;
+
+}
+.list-text{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    
+}
+.prices{
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 1250px; */
+    margin-top: 80px;
+}
+.list-text h1{
+    color: rgb(46, 46, 46);
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    /* text-align: ; */
+    width: 368px;
+    height: 138px;
+    padding-top: 0;
+}
+.name{
+    color: rgb(210, 181, 116);
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.names{
+    color: rgb(210, 181, 116);
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-right: 250px;
+}
+.name p{
+    margin-bottom: -20px;
+    text-align: left;
+}
+.names p{
+    margin-bottom: -20px;
+    text-align: left;
+}
+.button{
+    width: 157px;
+    height: 32px;
+    background-color: rgb(210, 181, 116);
+    color: rgb(255, 255, 255);
+    font-family: Baskerville;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.button:hover {
+    background-color: rgb(46, 46, 46);
+}
+.wishlist h1{
+    width: 502px;
+    height: 50px;
+    color: rgb(46, 46, 46);
+    font-family: Cera Pro;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    margin-top: 50px;
+}
+
+
+/* ---------FOOTER */
+
+
+.footer{
+    width: 1440px;
+    height: 286px;
+    background-color: rgb(46, 46, 46);
+    margin: 0 auto;
+}
+.footer-list h1{
+    margin-top: 50px;
+    color: rgb(210, 181, 116);
+    font-family: Baskerville;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0%;    
+}
+.listt{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto;
+}
